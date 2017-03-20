@@ -1,0 +1,113 @@
+Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 07:18:10) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 8+2*10
+28
+>>> (8+2)*10
+100
+>>> ls
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    ls
+NameError: name 'ls' is not defined
+>>> dir
+<built-in function dir>
+>>> file
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    file
+NameError: name 'file' is not defined
+>>> string
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    string
+NameError: name 'string' is not defined
+>>> 'string'
+'string'
+>>> 'don't'
+SyntaxError: invalid syntax
+>>> 'don/'t'
+SyntaxError: invalid syntax
+>>> 'don\'t'
+"don't"
+>>> print{hey how are you}
+SyntaxError: invalid syntax
+>>> print {"hey how are you"}
+SyntaxError: Missing parentheses in call to 'print'
+>>> print { "hey how are you" }
+SyntaxError: Missing parentheses in call to 'print'
+>>> print ("hey how are you")
+hey how are you
+>>> ndjfnxd
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    ndjfnxd
+NameError: name 'ndjfnxd' is not defined
+>>> print (hey how are you)
+SyntaxError: invalid syntax
+>>> print ("hey how are you")
+hey how are you
+>>> print ('hey how are you')
+hey how are you
+>>> print ("c:\desktop\november")
+c:\desktop
+ovember
+>>> print (r"c:\desktop\november")
+c:\desktop\november
+>>> name=bharath
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    name=bharath
+NameError: name 'bharath' is not defined
+>>> name = Bharath
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    name = Bharath
+NameError: name 'Bharath' is not defined
+>>> name="Bharath"
+>>> name
+'Bharath'
+>>> "hello" + name
+'helloBharath'
+>>> 'hello '+name
+'hello Bharath'
+>>> "kumar" = name
+SyntaxError: can't assign to literal
+>>> name*5
+'BharathBharathBharathBharathBharath'
+>>> name = "Bharath "
+>>> name *5
+'Bharath Bharath Bharath Bharath Bharath '
+>>> clear
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    clear
+NameError: name 'clear' is not defined
+>>> clean
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    clean
+NameError: name 'clean' is not defined
+>>> name = "shiva vasu"
+>>> name[1]
+'h'
+>>> name[2]
+'i'
+>>> name[3:6]
+'va '
+>>> name[3:8]
+'va va'
+>>> 
+KeyboardInterrupt
+>>> name[-3:-8]
+''
+>>> name[-3]
+'a'
+>>> name[-8:-3]
+'iva v'
+>>> len (name)
+10
+>>> len (sdhfujkhaosid hfieawuskdfhniejkdsfn oeisdklhgn ewulk sahctfewruksdthiewvulgcui kh)
+SyntaxError: invalid syntax
+>>> len ("sjf ilcjwaesoirdlfjweoislfjeriosdkhgfbiukejsjdfpo;a wuseoufhustdhferuskagdh k v")
+79
+>>>
