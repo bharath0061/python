@@ -52,6 +52,7 @@ hey how are you
 c:\desktop
 ovember
 >>> print (r"c:\desktop\november")
+#in the above line r means raw string to print the line as it is, where as in most programing laguage \n denotes next line#that is the reason we are using r before stating the 
 c:\desktop\november
 >>> name=bharath
 Traceback (most recent call last):
