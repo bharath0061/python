@@ -4,23 +4,6 @@ Type "copyright", "credits" or "license()" for more information.
 28
 >>> (8+2)*10
 100
->>> ls
-Traceback (most recent call last):
-  File "<pyshell#2>", line 1, in <module>
-    ls
-NameError: name 'ls' is not defined
->>> dir
-<built-in function dir>
->>> file
-Traceback (most recent call last):
-  File "<pyshell#4>", line 1, in <module>
-    file
-NameError: name 'file' is not defined
->>> string
-Traceback (most recent call last):
-  File "<pyshell#5>", line 1, in <module>
-    string
-NameError: name 'string' is not defined
 >>> 'string'
 'string'
 >>> 'don't'
@@ -37,11 +20,6 @@ SyntaxError: Missing parentheses in call to 'print'
 SyntaxError: Missing parentheses in call to 'print'
 >>> print ("hey how are you")
 hey how are you
->>> ndjfnxd
-Traceback (most recent call last):
-  File "<pyshell#14>", line 1, in <module>
-    ndjfnxd
-NameError: name 'ndjfnxd' is not defined
 >>> print (hey how are you)
 SyntaxError: invalid syntax
 >>> print ("hey how are you")
