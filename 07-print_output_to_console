@@ -1,0 +1,10 @@
+>>> print (hello) ====> Make sure always use double quotes to print a string else python consider it as a parameter and throw's error if the parameter is not defined
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    print (hello)
+NameError: name 'hello' is not defined
+>>> print ("Hello")
+Hello
+>>> hello=60 ====> parameter defined here.
+>>> print (hello)
+60
