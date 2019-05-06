@@ -1,0 +1,17 @@
+>>> print ( "5 * 6 = 30" ) ==> here every thing is hard-coded and print the output as it is
+5 * 6 = 30
+
+Format: format is a funciton used to pass the value in the string. In which we can define n number of parameters and valued access via potensial parameters using {0}, {1}, {2} etc. This will do the arthamatic operations.
+
+>>> ( '5 * 6 = {0}'.format ( 5 * 6 ))
+	    
+'5 * 6 = 30'
+>>> print ( "5 * 6 = {0}".format ( 5 * 6 ))
+	    
+5 * 6 = 30
+>>> print ( "{0} * {1} = {2}".format (5, 6, 5 * 6 ))
+	    
+5 * 6 = 30
+>>> print ( "{0} * {1} = {2}".format (5, 7, 5 * 7 ))
+	    
+5 * 7 = 35
