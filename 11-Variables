@@ -1,0 +1,50 @@
+In Python you have to define variable name either starting with "Alphabet" or "_" like below
+
+>>> count = 2
+>>> print (count)
+2
+>>> _count = 4
+>>> print (_count)
+4
+
+If you try to define variable name with other than "Alphabet" and "_" it throws below error, see below examples to understand
+
+>>> 1count = 9
+SyntaxError: invalid syntax
+>>> $count = 9
+SyntaxError: invalid syntax
+>>> #count = 9
+>>> print (#count)
+
+>>> index = 1 ==> Defining variable
+>>> index
+1
+>>> index1 = 5 ==> Defining varible
+>>> index1, index
+(5, 1)
+>>> print (index1, index)
+5 1
+>>> print ("{0} * {1} = {2}" .format(index1, index, index1 * index)) ==> using varibles which we are defined above.
+5 * 1 = 5
+>>> index = 2
+>>> print ("{0} * {1} = {2}" .format(index1, index, index1 * index))
+5 * 2 = 10
+>>> index = 3
+>>> print ("{0} * {1} = {2}" .format(index1, index, index1 * index))
+5 * 3 = 15
+>>> a = 5, b = 6, c = 7
+SyntaxError: can't assign to literal
+>>> a = 5, b = 6, c = 7,
+SyntaxError: can't assign to literal
+>>> [a, b, c] = [5, 6, 7] ==> we can also define vaiable in this manner
+>>> a
+5
+>>> b
+6
+>>> c
+7
+>>> print ("{0} + {1} + {2} = {3}" .format(a, b, c, a+b+c))
+5 + 6 + 7 = 18
+>>> [a, b, c] = [6, 7, 8]
+>>> print ("{0} + {1} + {2} = {3}" .format(a, b, c, a+b+c))
+6 + 7 + 8 = 21
