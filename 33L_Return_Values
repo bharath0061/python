@@ -1,0 +1,33 @@
+Return: "return" method is used to assing the result of a method to a variable.
+
+>>> def product_of_numbers(a,b,c):
+	mult = a * b * c ==> At first Assign the result to a varible
+	return mult      ==> Then use return method fallowing with the above varible which can the value and assing to given variable while using the function. 
+
+>>> result = product_of_numbers(2,3,4) ==> Here we are using method and return value is assigning to varible "result"
+>>> result
+24
+>>> product_of_numbers(2,3,4)
+24
+>>> def angle_of_triangle(first_angl, second_angl):
+	third_angl = 180 - first_angl + second_angl
+	return third_angl
+
+>>> result = angle_of_triangle(30,60)
+>>> result
+210
+>>> def angle_of_triangle(first_angl, second_angl):
+	third_angl = 180 - first_angl - second_angl
+	return third_angl
+
+>>> result = angle_of_triangle(30,60)
+>>> result
+90
+>>> def sum_of_three_num(a,b,c):
+	return a + b + c  ==> In return function you can use expression for arthamatic operations as well
+
+>>> result = sum_of_three_num(2,3,4)
+>>> result
+9
+>>> result * 10
+90
