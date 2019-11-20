@@ -9,7 +9,7 @@ pipeline {
         stage ('Archive') {
             steps {
                 withEnv(['WORKSPACE=${WORKSPACE}']) {
-                 sh ${WORKSPACE}/README.sh   
+                 sh '${WORKSPACE}/README.sh' 
                 }
             }
         }
