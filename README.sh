@@ -1,1 +1,1 @@
-tar -cf python.tar $WORKSPACE/*
+tar -cf $WORKSPACE/python.tar $WORKSPACE/*
